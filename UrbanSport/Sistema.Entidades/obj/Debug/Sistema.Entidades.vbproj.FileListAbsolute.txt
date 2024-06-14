@@ -1,0 +1,10 @@
+C:\BdUrbanSport\UrbanSport\Sistema.Entidades\obj\Debug\Sistema.Entidades.vbproj.AssemblyReference.cache
+C:\BdUrbanSport\UrbanSport\Sistema.Entidades\obj\Debug\Sistema.Entidades.Resources.resources
+C:\BdUrbanSport\UrbanSport\Sistema.Entidades\obj\Debug\Sistema.Entidades.vbproj.GenerateResource.cache
+C:\BdUrbanSport\UrbanSport\Sistema.Entidades\obj\Debug\Sistema.Entidades.vbproj.CoreCompileInputs.cache
+C:\BdUrbanSport\UrbanSport\Sistema.Entidades\bin\Debug\Sistema.Entidades.dll
+C:\BdUrbanSport\UrbanSport\Sistema.Entidades\bin\Debug\Sistema.Entidades.pdb
+C:\BdUrbanSport\UrbanSport\Sistema.Entidades\bin\Debug\Sistema.Entidades.xml
+C:\BdUrbanSport\UrbanSport\Sistema.Entidades\obj\Debug\Sistema.Entidades.dll
+C:\BdUrbanSport\UrbanSport\Sistema.Entidades\obj\Debug\Sistema.Entidades.xml
+C:\BdUrbanSport\UrbanSport\Sistema.Entidades\obj\Debug\Sistema.Entidades.pdb

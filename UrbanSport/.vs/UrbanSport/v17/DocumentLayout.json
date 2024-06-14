@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\BdUrbanSport\\UrbanSport\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|c:\\bdurbansport\\urbansport\\sistema.presentacion\\frmingreso.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|solutionrelative:sistema.presentacion\\frmingreso.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|C:\\BdUrbanSport\\UrbanSport\\sistema.presentacion\\frmingreso.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|solutionrelative:sistema.presentacion\\frmingreso.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|C:\\BdUrbanSport\\UrbanSport\\sistema.presentacion\\frmventa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|solutionrelative:sistema.presentacion\\frmventa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|C:\\BdUrbanSport\\UrbanSport\\sistema.presentacion\\frmventa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|solutionrelative:sistema.presentacion\\frmventa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmVenta.vb",
+              "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmVenta.vb",
+              "RelativeDocumentMoniker": "Sistema.Presentacion\\FrmVenta.vb",
+              "ToolTip": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmVenta.vb",
+              "RelativeToolTip": "Sistema.Presentacion\\FrmVenta.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-12T23:03:11.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmVenta.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmVenta.vb",
+              "RelativeDocumentMoniker": "Sistema.Presentacion\\FrmVenta.vb",
+              "ToolTip": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmVenta.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema.Presentacion\\FrmVenta.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-12T23:01:55.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmIngreso.vb",
+              "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmIngreso.vb",
+              "RelativeDocumentMoniker": "Sistema.Presentacion\\FrmIngreso.vb",
+              "ToolTip": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmIngreso.vb",
+              "RelativeToolTip": "Sistema.Presentacion\\FrmIngreso.vb",
+              "ViewState": "AQIAALsAAAAAAAAAAAAowMsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-12T22:15:11.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmIngreso.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmIngreso.vb",
+              "RelativeDocumentMoniker": "Sistema.Presentacion\\FrmIngreso.vb",
+              "ToolTip": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmIngreso.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema.Presentacion\\FrmIngreso.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-12T22:10:17.589Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

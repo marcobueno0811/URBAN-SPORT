@@ -1,0 +1,14 @@
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.AssemblyReference.cache
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\obj\Debug\Sistema.Datos.Resources.resources
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.GenerateResource.cache
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\obj\Debug\Sistema.Datos.vbproj.CoreCompileInputs.cache
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\bin\Debug\Sistema.Datos.dll
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\bin\Debug\Sistema.Datos.pdb
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\bin\Debug\Sistema.Datos.xml
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\bin\Debug\Sistema.Entidades.dll
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\bin\Debug\Sistema.Entidades.pdb
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\bin\Debug\Sistema.Entidades.xml
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\obj\Debug\Sistema..6ABF9464.Up2Date
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\obj\Debug\Sistema.Datos.dll
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\obj\Debug\Sistema.Datos.xml
+C:\BdUrbanSport\UrbanSport\Sistema.Datos\obj\Debug\Sistema.Datos.pdb

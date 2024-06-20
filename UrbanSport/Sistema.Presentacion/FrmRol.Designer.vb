@@ -40,7 +40,7 @@ Partial Class FrmRol
         Me.DgvListado.Location = New System.Drawing.Point(6, 23)
         Me.DgvListado.Name = "DgvListado"
         Me.DgvListado.ReadOnly = True
-        Me.DgvListado.Size = New System.Drawing.Size(256, 184)
+        Me.DgvListado.Size = New System.Drawing.Size(296, 184)
         Me.DgvListado.TabIndex = 0
         '
         'TabPage1

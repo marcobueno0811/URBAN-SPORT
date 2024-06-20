@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\BdUrbanSport\\UrbanSport\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F94ACFD-04F2-4D87-9966-755762E044D4}|Sistema.Datos\\Sistema.Datos.vbproj|c:\\bdurbansport\\urbansport\\sistema.datos\\darticulo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1F94ACFD-04F2-4D87-9966-755762E044D4}|Sistema.Datos\\Sistema.Datos.vbproj|solutionrelative:sistema.datos\\darticulo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|c:\\bdurbansport\\urbansport\\sistema.presentacion\\frmrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|solutionrelative:sistema.presentacion\\frmrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|c:\\bdurbansport\\urbansport\\sistema.presentacion\\consultas\\frmimagen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|solutionrelative:sistema.presentacion\\consultas\\frmimagen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|c:\\bdurbansport\\urbansport\\sistema.presentacion\\frmrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|solutionrelative:sistema.presentacion\\frmrol.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|c:\\bdurbansport\\urbansport\\sistema.presentacion\\frmprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|solutionrelative:sistema.presentacion\\frmprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|c:\\bdurbansport\\urbansport\\sistema.presentacion\\frmprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|solutionrelative:sistema.presentacion\\frmprincipal.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|c:\\bdurbansport\\urbansport\\sistema.presentacion\\frmusuario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8A78AC13-D178-4E29-84D4-1EBEFBC0795C}|Sistema.Presentacion\\Sistema.Presentacion.vbproj|solutionrelative:sistema.presentacion\\frmusuario.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FB97914-085B-4E8A-B877-F76CDC5DE82C}|Sistema.Negocio\\Sistema.Negocio.vbproj|C:\\BdUrbanSport\\UrbanSport\\sistema.negocio\\narticulo.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,32 +50,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DArticulo.vb",
-              "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Datos\\DArticulo.vb",
-              "RelativeDocumentMoniker": "Sistema.Datos\\DArticulo.vb",
-              "ToolTip": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Datos\\DArticulo.vb",
-              "RelativeToolTip": "Sistema.Datos\\DArticulo.vb",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwAYAAAApAAAA",
+              "DocumentIndex": 1,
+              "Title": "FrmRol.vb",
+              "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmRol.vb",
+              "RelativeDocumentMoniker": "Sistema.Presentacion\\FrmRol.vb",
+              "ToolTip": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmRol.vb",
+              "RelativeToolTip": "Sistema.Presentacion\\FrmRol.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-20T01:06:58.633Z",
+              "WhenOpened": "2024-06-20T22:40:58.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmImagen.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\Consultas\\FrmImagen.vb",
-              "RelativeDocumentMoniker": "Sistema.Presentacion\\Consultas\\FrmImagen.vb",
-              "ToolTip": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\Consultas\\FrmImagen.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Sistema.Presentacion\\Consultas\\FrmImagen.vb [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "FrmPrincipal.vb",
+              "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmPrincipal.vb",
+              "RelativeDocumentMoniker": "Sistema.Presentacion\\FrmPrincipal.vb",
+              "ToolTip": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmPrincipal.vb",
+              "RelativeToolTip": "Sistema.Presentacion\\FrmPrincipal.vb",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAcwJQAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-19T01:45:30.098Z",
+              "WhenOpened": "2024-06-20T22:31:19.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmPrincipal.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmPrincipal.vb",
+              "RelativeDocumentMoniker": "Sistema.Presentacion\\FrmPrincipal.vb",
+              "ToolTip": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmPrincipal.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema.Presentacion\\FrmPrincipal.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-20T22:31:04.428Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "FrmUsuario.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmUsuario.vb",
+              "RelativeDocumentMoniker": "Sistema.Presentacion\\FrmUsuario.vb",
+              "ToolTip": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmUsuario.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema.Presentacion\\FrmUsuario.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-20T22:30:39.965Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmRol.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmRol.vb",
+              "RelativeDocumentMoniker": "Sistema.Presentacion\\FrmRol.vb",
+              "ToolTip": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\FrmRol.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Sistema.Presentacion\\FrmRol.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-20T22:30:30.615Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FrmConsultaMarcaTalla.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\Consultas\\FrmConsultaMarcaTalla.vb",
               "RelativeDocumentMoniker": "Sistema.Presentacion\\Consultas\\FrmConsultaMarcaTalla.vb",
@@ -74,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "FrmConsultaMarcaTalla.vb",
               "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Presentacion\\Consultas\\FrmConsultaMarcaTalla.vb",
               "RelativeDocumentMoniker": "Sistema.Presentacion\\Consultas\\FrmConsultaMarcaTalla.vb",
@@ -86,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "NArticulo.vb",
               "DocumentMoniker": "C:\\BdUrbanSport\\UrbanSport\\Sistema.Negocio\\NArticulo.vb",
               "RelativeDocumentMoniker": "Sistema.Negocio\\NArticulo.vb",

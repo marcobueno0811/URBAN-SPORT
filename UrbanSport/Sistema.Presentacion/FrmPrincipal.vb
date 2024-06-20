@@ -131,32 +131,29 @@ Public Class frmPrincipal
             MnuVentas.Enabled = True
             MnuAcceso.Enabled = True
             MnuConsultas.Enabled = True
-            'TsCompras.Enabled = True
-            'TsVentas.Enabled = True
+
         ElseIf (Me.Rol = "Almacenero") Then
             MnuAlmacen.Enabled = True
             MnuIngresos.Enabled = True
             MnuVentas.Enabled = False
             MnuAcceso.Enabled = False
             MnuConsultas.Enabled = False
-            'TsCompras.Enabled = True
-            ' TsVentas.Enabled = False
+            MnuMantenimiento.Enabled = False
+
         ElseIf (Me.Rol = "Vendedor") Then
             MnuAlmacen.Enabled = False
             MnuIngresos.Enabled = False
             MnuVentas.Enabled = True
             MnuAcceso.Enabled = False
             MnuConsultas.Enabled = False
-            'TsCompras.Enabled = False
-            'TsVentas.Enabled = True
+            MnuMantenimiento.Enabled = False
         Else
             MnuAlmacen.Enabled = False
             MnuIngresos.Enabled = False
             MnuVentas.Enabled = False
             MnuAcceso.Enabled = False
             MnuConsultas.Enabled = False
-            ' TsCompras.Enabled = False
-            ' TsVentas.Enabled = False
+            MnuMantenimiento.Enabled = False
         End If
     End Sub
 
@@ -235,5 +232,21 @@ Public Class frmPrincipal
         Dim frm As New FrmConsultaMarcaTalla
         frm.MdiParent = Me
         frm.Show()
+    End Sub
+
+    Private Sub RolesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RolesToolStripMenuItem.Click
+        Dim frm As New FrmRol
+        frm.MdiParent = Me
+        frm.Show()
+    End Sub
+
+    Private Sub UsuarioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UsuarioToolStripMenuItem.Click
+        Dim frm As New FrmUsuario
+        frm.MdiParent = Me
+        frm.Show()
+    End Sub
+
+    Private Sub WindowsMenu_Click(sender As Object, e As EventArgs) Handles MnuMantenimiento.Click
+
     End Sub
 End Class

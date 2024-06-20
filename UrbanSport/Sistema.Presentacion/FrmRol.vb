@@ -2,7 +2,7 @@
 
     Private Sub Formato()
 
-        DgvListado.Columns(0).Width = 100
+        DgvListado.Columns(0).Width = 60
         DgvListado.Columns(1).Width = 150
         DgvListado.Columns(0).HeaderText = "ID"
         DgvListado.Columns(1).HeaderText = "Nombre"

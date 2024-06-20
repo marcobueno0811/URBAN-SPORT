@@ -103,6 +103,12 @@
     <Compile Include="Consultas\FrmConsultaMarca.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Consultas\FrmConsultaMarcaTalla.Designer.vb">
+      <DependentUpon>FrmConsultaMarcaTalla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\FrmConsultaMarcaTalla.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Consultas\FrmConsultaStock.Designer.vb">
       <DependentUpon>FrmConsultaStock.vb</DependentUpon>
     </Compile>
@@ -248,6 +254,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Consultas\FrmConsultaMarca.resx">
       <DependentUpon>FrmConsultaMarca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\FrmConsultaMarcaTalla.resx">
+      <DependentUpon>FrmConsultaMarcaTalla.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Consultas\FrmConsultaStock.resx">
       <DependentUpon>FrmConsultaStock.vb</DependentUpon>

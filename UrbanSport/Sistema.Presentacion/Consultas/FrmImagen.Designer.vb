@@ -50,7 +50,7 @@ Partial Class FrmImagen
         '
         Me.PicImagen.Location = New System.Drawing.Point(26, 54)
         Me.PicImagen.Name = "PicImagen"
-        Me.PicImagen.Size = New System.Drawing.Size(461, 456)
+        Me.PicImagen.Size = New System.Drawing.Size(381, 456)
         Me.PicImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PicImagen.TabIndex = 14
         Me.PicImagen.TabStop = False
@@ -60,7 +60,7 @@ Partial Class FrmImagen
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(520, 522)
+        Me.ClientSize = New System.Drawing.Size(443, 522)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txtimagen)
         Me.Controls.Add(Me.PicImagen)

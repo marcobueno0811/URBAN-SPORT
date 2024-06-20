@@ -161,6 +161,24 @@ Public Class DArticulo
         End Try
     End Function
 
+    Public Function ConsultaMarcaTalla(marca As String, modelo As String) As DataTable
+        Try
+            Dim Resultado As SqlDataReader
+            Dim Tabla As New DataTable
+            Dim comando As New SqlCommand("marca_talla_listar", MyBase.conn)
+            comando.CommandType = CommandType.StoredProcedure
+            comando.Parameters.Add("@xvalor", SqlDbType.VarChar).Value = marca
+            comando.Parameters.Add("@xvalor2", SqlDbType.VarChar).Value = modelo
+            MyBase.conn.Open()
+            Resultado = comando.ExecuteReader()
+            Tabla.Load(Resultado)
+            MyBase.conn.Close()
+            Return Tabla
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Function
+
     Public Sub Insertar(Obj As Articulo)
         Try
             Dim Comando As New SqlCommand("articulo_insertar", MyBase.conn)

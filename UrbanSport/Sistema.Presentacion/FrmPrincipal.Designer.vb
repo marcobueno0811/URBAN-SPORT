@@ -42,6 +42,7 @@ Partial Class frmPrincipal
         Me.ConsultasVentasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultaStockToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultaMarcaModeloToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultaPrecioDeVentaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ViewMenu = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolBarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusBarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -66,7 +67,7 @@ Partial Class frmPrincipal
         Me.StatusStrip = New System.Windows.Forms.StatusStrip()
         Me.TsBarraInferior = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.ConsultaPrecioDeVentaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultaMarcaYTallaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip.SuspendLayout()
         Me.ToolStrip.SuspendLayout()
         Me.StatusStrip.SuspendLayout()
@@ -160,7 +161,7 @@ Partial Class frmPrincipal
         '
         'MnuConsultas
         '
-        Me.MnuConsultas.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultasVentasToolStripMenuItem, Me.ConsultaStockToolStripMenuItem, Me.ConsultaMarcaModeloToolStripMenuItem, Me.ConsultaPrecioDeVentaToolStripMenuItem})
+        Me.MnuConsultas.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultasVentasToolStripMenuItem, Me.ConsultaStockToolStripMenuItem, Me.ConsultaMarcaYTallaToolStripMenuItem, Me.ConsultaMarcaModeloToolStripMenuItem, Me.ConsultaPrecioDeVentaToolStripMenuItem})
         Me.MnuConsultas.Name = "MnuConsultas"
         Me.MnuConsultas.Size = New System.Drawing.Size(71, 20)
         Me.MnuConsultas.Text = "Consultas"
@@ -182,6 +183,12 @@ Partial Class frmPrincipal
         Me.ConsultaMarcaModeloToolStripMenuItem.Name = "ConsultaMarcaModeloToolStripMenuItem"
         Me.ConsultaMarcaModeloToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.ConsultaMarcaModeloToolStripMenuItem.Text = "Consulta Marca Modelo"
+        '
+        'ConsultaPrecioDeVentaToolStripMenuItem
+        '
+        Me.ConsultaPrecioDeVentaToolStripMenuItem.Name = "ConsultaPrecioDeVentaToolStripMenuItem"
+        Me.ConsultaPrecioDeVentaToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
+        Me.ConsultaPrecioDeVentaToolStripMenuItem.Text = "Consulta Precio de Venta"
         '
         'ViewMenu
         '
@@ -356,11 +363,11 @@ Partial Class frmPrincipal
         Me.TsBarraInferior.Size = New System.Drawing.Size(225, 17)
         Me.TsBarraInferior.Text = "Desarrolloda por: www.marcobueno.com"
         '
-        'ConsultaPrecioDeVentaToolStripMenuItem
+        'ConsultaMarcaYTallaToolStripMenuItem
         '
-        Me.ConsultaPrecioDeVentaToolStripMenuItem.Name = "ConsultaPrecioDeVentaToolStripMenuItem"
-        Me.ConsultaPrecioDeVentaToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
-        Me.ConsultaPrecioDeVentaToolStripMenuItem.Text = "Consulta Precio de Venta"
+        Me.ConsultaMarcaYTallaToolStripMenuItem.Name = "ConsultaMarcaYTallaToolStripMenuItem"
+        Me.ConsultaMarcaYTallaToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
+        Me.ConsultaMarcaYTallaToolStripMenuItem.Text = "Consulta Marca y Talla"
         '
         'frmPrincipal
         '
@@ -427,4 +434,5 @@ Partial Class frmPrincipal
     Friend WithEvents ConsultaStockToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ConsultaMarcaModeloToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ConsultaPrecioDeVentaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ConsultaMarcaYTallaToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -230,4 +230,10 @@ Public Class frmPrincipal
         frm.MdiParent = Me
         frm.Show()
     End Sub
+
+    Private Sub ConsultaMarcaYTallaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultaMarcaYTallaToolStripMenuItem.Click
+        Dim frm As New FrmConsultaMarcaTalla
+        frm.MdiParent = Me
+        frm.Show()
+    End Sub
 End Class

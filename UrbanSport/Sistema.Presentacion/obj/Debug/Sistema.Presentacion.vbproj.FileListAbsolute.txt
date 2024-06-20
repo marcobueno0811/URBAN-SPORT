@@ -113,3 +113,4 @@ C:\BdUrbanSport\UrbanSport\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.F
 C:\BdUrbanSport\UrbanSport\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmImagen.resources
 C:\BdUrbanSport\UrbanSport\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmConsultaMarca.resources
 C:\BdUrbanSport\UrbanSport\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmPrecioVenta.resources
+C:\BdUrbanSport\UrbanSport\Sistema.Presentacion\obj\Debug\Sistema.Presentacion.FrmConsultaMarcaTalla.resources

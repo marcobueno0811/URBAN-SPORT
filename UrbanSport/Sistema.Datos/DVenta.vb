@@ -134,6 +134,7 @@ Public Class DVenta
             comando.Parameters.Add("@serie_comprobante", SqlDbType.VarChar).Value = obj.SerieComprobante
             comando.Parameters.Add("@num_comprobante", SqlDbType.VarChar).Value = obj.NumComprobante
             comando.Parameters.Add("@impuesto", SqlDbType.Decimal).Value = obj.Impuesto
+            comando.Parameters.Add("@Sub_Total", SqlDbType.Decimal).Value = obj.SubTotal
             comando.Parameters.Add("@A_Cuenta", SqlDbType.Decimal).Value = obj.A_Cuenta
             comando.Parameters.Add("@saldo", SqlDbType.Decimal).Value = obj.Saldo
             comando.Parameters.Add("@total", SqlDbType.Decimal).Value = obj.Total

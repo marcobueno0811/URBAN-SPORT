@@ -51,6 +51,7 @@ Public Class FrmVenta
     End Sub
 
     Private Sub FormatoListaVenta()
+        DgvMostrarDetalle.Columns(10).Visible = False
         DgvMostrarDetalle.Columns(0).Width = 50
         DgvMostrarDetalle.Columns(1).Width = 50
         DgvMostrarDetalle.Columns(2).Width = 100
@@ -58,7 +59,7 @@ Public Class FrmVenta
         DgvMostrarDetalle.Columns(4).Width = 100
         DgvMostrarDetalle.Columns(5).Width = 70
         DgvMostrarDetalle.Columns(6).Width = 80
-        DgvMostrarDetalle.Columns(7).Width = 100
+        DgvMostrarDetalle.Columns(7).Width = 80
         DgvMostrarDetalle.Columns(8).Width = 100
         DgvMostrarDetalle.Columns(9).Width = 100
     End Sub
@@ -99,10 +100,6 @@ Public Class FrmVenta
         Me.CrearTablaDetalle()
         Me.CargarVenta()
         Me.tipo_venta()
-        ' If Me.CboTipo_Venta.Text = "CONTADO" Then
-        'Txt'A_cuenta.Visible = False
-        'End If
-
 
     End Sub
 
@@ -368,9 +365,6 @@ Public Class FrmVenta
         impuesto = TxtTotalImpuesto.Text
         saldo = CStr(total - ACuenta)
         TxtSaldo.Text = saldo
-        'TxtTotal.Text = CStr(subtotal + impuesto)
-        'total = TxtTotal.Text
-        'TxtSaldo.Text = (total - ACuenta)
         TxtTotal.Focus()
 
     End Sub
@@ -438,6 +432,7 @@ Public Class FrmVenta
                 obj.SerieComprobante = TxtSerieComprobante.Text
                 obj.NumComprobante = TxtNumComprobante.Text
                 obj.Impuesto = TxtImpuesto.Text
+                obj.SubTotal = TxtSubTotal.Text
                 obj.A_Cuenta = TxtA_cuenta.Text
                 obj.Saldo = TxtSaldo.Text
                 obj.Total = TxtTotal.Text
@@ -473,7 +468,7 @@ Public Class FrmVenta
             Dim SubTotal As Decimal = 0
             Dim TotalImpuesto As Decimal = 0
 
-            Total = DgvListado.SelectedCells.Item(14).Value
+            Total = DgvListado.SelectedCells.Item(15).Value
             SubTotal = Math.Round(Total / (1 + DgvListado.SelectedCells.Item(11).Value), 2)
             TotalImpuesto = Total - SubTotal
 
@@ -617,5 +612,18 @@ Public Class FrmVenta
         End If
 
 
+    End Sub
+
+    Private Sub DgvMostrarDetalle_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles DgvMostrarDetalle.CellDoubleClick
+        Dim imagen As String
+        imagen = DgvMostrarDetalle.SelectedCells.Item(10).Value
+        If (imagen <> "") Then
+            FrmImagen.Show()
+            FrmImagen.PicImagen.Image = Image.FromFile(Directorio & imagen)
+            FrmImagen.txtimagen.Text = imagen
+        Else
+            FrmImagen.PicImagen.Image = Nothing
+            FrmImagen.txtimagen.Text = ""
+        End If
     End Sub
 End Class

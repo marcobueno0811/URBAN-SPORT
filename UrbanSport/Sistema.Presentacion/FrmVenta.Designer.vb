@@ -221,9 +221,9 @@ Partial Class FrmVenta
         Me.LblTotalIm.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblTotalIm.Location = New System.Drawing.Point(576, 315)
         Me.LblTotalIm.Name = "LblTotalIm"
-        Me.LblTotalIm.Size = New System.Drawing.Size(110, 16)
+        Me.LblTotalIm.Size = New System.Drawing.Size(70, 16)
         Me.LblTotalIm.TabIndex = 2
-        Me.LblTotalIm.Text = "Total Impuesto"
+        Me.LblTotalIm.Text = "Impuesto"
         '
         'Label8
         '

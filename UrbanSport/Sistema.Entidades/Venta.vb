@@ -8,6 +8,7 @@
     Private _SerieComprobante As String
     Private _NumComprobante As String
     Private _Fecha As Date
+    Private _SubTotal As Decimal
     Private _Impuesto As Decimal
     Private _A_Cuenta As Decimal
     Private _Saldo As Decimal
@@ -140,6 +141,15 @@
         End Get
         Set(value As Integer)
             _iddetalle_venta = value
+        End Set
+    End Property
+
+    Public Property SubTotal As Decimal
+        Get
+            Return _SubTotal
+        End Get
+        Set(value As Decimal)
+            _SubTotal = value
         End Set
     End Property
 End Class

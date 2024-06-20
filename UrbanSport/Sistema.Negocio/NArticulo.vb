@@ -156,6 +156,18 @@ Public Class NArticulo
         End Try
     End Function
 
+    Public Function ConsultaMarcaTalla(marca As String, talla As String) As DataTable
+        Try
+            Dim Datos As New DArticulo
+            Dim Tabla As New DataTable
+            Tabla = Datos.ConsultaMarcaTalla(marca, talla)
+            Return Tabla
+        Catch ex As Exception
+            MsgBox(ex.Message)
+            Return Nothing
+        End Try
+    End Function
+
 
     Public Function Insertar(Obj As Articulo) As Boolean
         Try
